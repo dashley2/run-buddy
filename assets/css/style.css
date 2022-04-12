@@ -4,9 +4,11 @@ body {
     background-color: #f4dc5f; 
     font-family: Gill Sans, sans-serif;
 }
-link {
-    all:"stylesheet"; href:/Users/dmariah/Desktop/run-buddy/assets/css/style.css;
-}  
+a {
+    all:"stylesheet"; 
+}
+a:link {href :/Users/dmariah/Desktop/run-buddy/assets/css/stylestyle.css;
+}   
     /*apply styles to <header>*/ 
 header {
     padding: 20px 35px;
