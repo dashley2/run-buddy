@@ -5,7 +5,7 @@ body {
     font-family: Gill Sans, sans-serif;
 }
 link {
-    all:"stylesheet"; href: /assets/css/style.css;
+    all:"stylesheet"; href:/Users/dmariah/Desktop/run-buddy/assets/css/style.css;
 }  
     /*apply styles to <header>*/ 
 header {
