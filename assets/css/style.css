@@ -9,6 +9,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* apply styles to <header> */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -55,13 +56,6 @@ footer h2 {
     margin: 0;
 }
 
-footer h2 {
-    display: inline;
-    color:#024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
 footer div {
     float: right;
     line-height: 1.5;
@@ -72,17 +66,17 @@ footer a {
     color: #024e76;
 }
 
-footer p {
+footer div {
     float: right;
-    line-height: 0;
+    line-height: 1.5;
     text-align: right;
 }
 
-footer p {
-    color: #39a6b2;  
+footer a {
+    color: #024e76;  
 }
 
-content {
+section {
     padding: 60px;
 }
 
@@ -128,6 +122,10 @@ content {
 }
 
 .hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
     color: #fce138;
     background-color: #024e76;
     border: none;
@@ -193,7 +191,7 @@ content {
     border-color: #39a6b2;
 }
 
-.traineres {
+.trainers {
     text-align: center;
 }
 
@@ -206,7 +204,7 @@ content {
 }
 
 .trainer img {
-    width: 35%
+    width: 35%;
     float: left;
 }
 
@@ -233,6 +231,10 @@ content {
 }
 
 .text-left {
+    text-align: right;
+}
+
+.text-right {
     text-align: right;
 }
 
@@ -268,7 +270,7 @@ content {
 .contact-info p,
 .contact-info address {
     margin: 20px 0;
-    line-heigh: 1.5;
+    line-height: 1.5;
     font-size: 20px;
     font-style: normal;
 }
