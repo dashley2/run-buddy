@@ -5,6 +5,7 @@
 }
 
 body {
+  /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -63,16 +64,6 @@ footer div {
 }
 
 footer a {
-    color: #024e76;
-}
-
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
     color: #024e76;  
 }
 
@@ -82,13 +73,12 @@ section {
 
 /* Hero Style Start */
 .hero {
-    padding: 60px;
     background-image: url("../images/hero-bg.jpg");
-    height: 800px;
+    height: 600px;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
-
 /* Hero Style end */
 
 .hero-form {
@@ -160,7 +150,7 @@ section {
 }
 
 .steps h3 {
-    color: #024e76
+    color: #024e76;
     font-size: 46px;
     margin-top: 10px;
 }
@@ -231,7 +221,7 @@ section {
 }
 
 .text-left {
-    text-align: right;
+    text-align: left;
 }
 
 .text-right {
